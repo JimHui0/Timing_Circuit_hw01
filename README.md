@@ -1,6 +1,6 @@
 # Timing_Circuit_hw01
 
-## State and Cycles
+## States
 
 | State | function | Cycles |
 | :-----:| :----: | :----: |
@@ -14,3 +14,4 @@ In this design, width = 20, fraction bit = 4.
 
 Therefore, it needs 1+1+26+14 = 42 clock cycles to complete one input.
 
+![image](https://github.com/JimHui0/Timing_Circuit_hw01/blob/main/state.jpg)
