@@ -8,6 +8,10 @@ module RMS_tb();
     
     RMS_top RMS_top1(.clk(clk), .rst(rst), .start(start), .a(a), .RMS_code(RMS_code), .done(done));
     
+    initial begin
+		$fsdbDumpfile("Simulation_Result/RMS_rtl.fsdb");
+		$fsdbDumpvars;
+	end
     
     always #5 clk <= ~clk;
     
