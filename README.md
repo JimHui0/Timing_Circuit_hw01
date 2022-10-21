@@ -20,7 +20,7 @@ Therefore, it needs 1+1+26+14 = 42 clock cycles to complete one input.
 
 Using test sequence {42, 45, 47, 51, 49, 50}.
 
-Since this homework require fraction bit = 4, the smallest step in fraction part is 2^-4 = 0.0625.
+Since this homework require fraction bit = 4, the smallest step in fraction part is $2^{-4} = 0.0625$.
 
 Because of that, even though the exact RMS of test sequence is 47.4342, this design can only come close to 47.375.
 
